@@ -6,4 +6,4 @@ lastmodified.textContent = `Last Modified: ${document.lastModified}`;
 const p_year = document.querySelector("#copyright");
 const today = new Date()
 const year = today.getFullYear()
-p_year.textContent += `${year}`;
+p_year.innerHTML = `&copy; ${year} Kennette Guevara`;

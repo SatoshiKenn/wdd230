@@ -39,12 +39,12 @@ main {
 #portal {
   grid-column: 1/3;
   grid-row: 1;
-  text-align: center;
+  text-align: left;
 }
 
 #lessons-list {
   grid-column: 1/3;
-  text-align: center;
+  text-align: left;
   list-style: none;
 }
 

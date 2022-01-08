@@ -13,10 +13,11 @@ header {
 }
 
 #pimg {
-  width: 300px;
+  width: 100%;
   height: auto;
   grid-column: 1;
   border-radius: 10px;
+  display: inline-block;
 }
 
 #name {

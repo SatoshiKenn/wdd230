@@ -3,5 +3,7 @@ const lastmodified = document.querySelector("#lastmodified");
 lastmodified.textContent = `Last Modified: ${document.lastModified}`;
 
 //Get year code
-const year = document.querySelector("#copyright");
-year.innerHTML = `&copy; Kennette Guevara ${get.year}`;
+const p_year = document.querySelector("#copyright");
+const today = new Date()
+const year = today.getFullYear()
+p_year.textContent += `${year}`;

@@ -54,10 +54,13 @@ main {
 #lessons-list {
   grid-column: 1/3;
   text-align: left;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
 }
 
 li {
   grid-column: 1/3;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-weight: bold;
 }
 
 footer {

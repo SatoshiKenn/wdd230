@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Zen+Kaku+Gothic+New:wght@300&display=swap");
+
 body {
   max-width: 1200px;
   margin: auto;
@@ -10,6 +12,12 @@ header {
   position: relative;
   background-color: rgba(19, 102, 203, 0.831);
   border-radius: 10px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Zen Kaku Gothic New", sans-serif;
 }
 
 #pimg {

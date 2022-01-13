@@ -75,8 +75,9 @@ footer {
   grid-row: 3;
   max-width: 40%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   margin: 0 auto;
+  padding: 0;
   border-radius: 10px;
   background-color: rgba(19, 102, 203, 0.831);
   border-radius: 10px;

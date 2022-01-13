@@ -20,6 +20,14 @@ h3 {
   font-family: "Zen Kaku Gothic New", sans-serif;
 }
 
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
 #pimg {
   width: 95%;
   grid-column: 1/2;
@@ -35,7 +43,7 @@ h3 {
   align-items: center;
   justify-content: center;
   position: relative;
-  margin-top: 30%;
+  margin-top: 0;
 }
 
 main {

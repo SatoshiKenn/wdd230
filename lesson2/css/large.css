@@ -1,10 +1,36 @@
 /*Desktop Views*/
 @media only screen and (min-width: 60em) {
-    main {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+  main {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
-    section:nth-child(3) {
-        grid-column: span 1;
-    }
+  section:nth-child(3) {
+    grid-column: span 1;
+    max-width: 60%;
+  }
+
+  header {
+    max-width: 86.5%;
+  }
+
+  footer {
+    max-width: 86.5%;
+  }
+
+  h2,
+  p {
+    font-size: 2em;
+  }
+
+  #crunchy {
+    max-width: 60%;
+  }
+
+  #git {
+    max-width: 70%;
+  }
+
+  #school {
+    max-width: 65%;
+  }
 }

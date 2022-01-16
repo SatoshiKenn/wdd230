@@ -8,6 +8,7 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   font-size: 0.8rem;
+  padding: 5px;
 }
 
 header {

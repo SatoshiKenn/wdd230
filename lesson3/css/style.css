@@ -6,7 +6,7 @@
 
 body {
   font-size: 16px;
-  font-family: "Sansita", Ubuntu, sans-serif;
+  font-family: Ubuntu, "Sansita", sans-serif;
 }
 
 /* phone or baseline views */
@@ -26,6 +26,7 @@ main,
 footer {
   max-width: 767px;
   margin: 0 auto;
+  border-radius: 10px;
 }
 
 h1,
@@ -55,6 +56,26 @@ p {
   display: block;
 }
 
+#colors {
+  max-width: 70%;
+  border-radius: 10px;
+}
+
+#robotoc {
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+}
+
+#roboto {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+#ubuntu {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+}
+
 .img {
   display: flex;
   justify-content: center;
@@ -67,6 +88,7 @@ nav {
 nav ul {
   list-style-type: none;
   overflow: hidden;
+  border-radius: 10px;
 }
 nav ul li a {
   display: block;
@@ -80,7 +102,7 @@ nav ul li a {
 }
 
 main ul li {
-    list-style: circle;
+  list-style: circle;
 }
 
 nav a:hover {

@@ -1,6 +1,6 @@
 //Last date modified code
 const lastmodified = document.querySelector("#lastmodified");
-lastmodified.innerHTML = `Last Updated: ${document.lastModified}`;
+lastmodified.innerHTML = `Last Updated: ${document.lastModified} <a href="../index.html">Home</a>`;
 
 //Get year code
 const p_year = document.querySelector("#copyright");

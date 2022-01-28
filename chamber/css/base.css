@@ -46,7 +46,7 @@ h3 {
 
 h1 {
   font-size: 1.1rem;
-  color: #ff521b;
+  color: #373737;
   text-align: center;
 }
 h2 {
@@ -161,7 +161,7 @@ main {
 }
 
 footer {
-  color: black;
+  color: #373737;
   font-size: 0.6rem;
   font-family: "Roboto Condensed", sans-serif;
 }

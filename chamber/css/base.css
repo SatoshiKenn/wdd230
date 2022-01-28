@@ -61,12 +61,12 @@ p {
 }
 
 .social {
-	margin-right: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .social img {
-	width: 25px;
-	height: auto;
+  width: 25px;
+  height: auto;
 }
 
 .logo {
@@ -120,8 +120,8 @@ nav ul.open {
 }
 
 #date {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #hamburgerbtn span:nth-child(1) {
@@ -138,8 +138,10 @@ nav ul.open {
   display: block;
 }
 
-main ul li {
-  list-style: circle;
+nav button {
+  color: #fff;
+  background-color: #373737;
+  transition: 0.5s;
 }
 
 nav a:hover {
@@ -147,21 +149,93 @@ nav a:hover {
   color: #36454f;
 }
 
-nav button {
-	color: #fff;
-	background-color: #373737;
-	transition: 0.5s;
+/*main css*/
+main ul li {
+  list-style: circle;
 }
 
 main {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   font-size: 0.8rem;
   padding: 10px;
 }
 
+#hero,
+#event,
+#weather,
+#news {
+  border-style: solid;
+  width: 1fr;
+  height: 200px;
+  margin: 5px;
+  text-align: center;
+}
+
+#spotlight {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#spotlight1 {
+  grid-row: 1;
+  border-style: solid;
+  width: 1fr;
+  height: 200px;
+  margin: 5px;
+  text-align: center;
+}
+
+#spotlight2 {
+  grid-row: 2;
+  border-style: solid;
+  width: 1fr;
+  height: 200px;
+  margin: 5px;
+  text-align: center;
+}
+
+#join {
+  display: none;
+}
+
+#spotlight3 {
+  display: none;
+}
+
+/* Flex attempt spotlights
+#spotlight {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  padding: 10px;
+  width: 1fr;
+}
+
+#spotlight1 {
+  border-style: solid;
+  width: 1fr;
+  height: 200px;
+  margin: 5px;
+  text-align: center;
+}
+
+#spotlight2 {
+  border-style: solid;
+  width: 1fr;
+  height: 200px;
+  margin: 5px;
+  text-align: center;
+}
+*/
+
+/*footer css*/
 footer {
   color: #373737;
   font-size: 0.6rem;
   font-family: "Roboto Condensed", sans-serif;
+}
+
+.email {
+  font-size: 1rem;
 }

@@ -162,7 +162,6 @@ main {
 
 #hero {
   border-style: solid;
-  width: 1fr;
   height: 200px;
   margin: 5px;
   text-align: center;
@@ -170,7 +169,6 @@ main {
 
 #event {
   border-style: solid;
-  width: 1fr;
   height: 200px;
   margin: 5px;
   text-align: center;
@@ -178,7 +176,6 @@ main {
 
 #weather {
   border-style: solid;
-  width: 1fr;
   height: 200px;
   margin: 5px;
   text-align: center;
@@ -186,7 +183,6 @@ main {
 
 #news {
   border-style: solid;
-  width: 1fr;
   height: 200px;
   margin: 5px;
   text-align: center;
@@ -200,7 +196,6 @@ main {
 #spotlight1 {
   grid-row: 1;
   border-style: solid;
-  width: 1fr;
   height: 200px;
   margin: 5px;
   text-align: center;
@@ -209,7 +204,6 @@ main {
 #spotlight2 {
   grid-row: 2;
   border-style: solid;
-  width: 1fr;
   height: 200px;
   margin: 5px;
   text-align: center;

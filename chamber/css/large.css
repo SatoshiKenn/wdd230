@@ -21,7 +21,6 @@
 
   #event {
     border-style: solid;
-    width: 1fr;
     height: 200px;
     margin: 5px;
     text-align: center;
@@ -29,7 +28,6 @@
 
   #weather {
     border-style: solid;
-    width: 1fr;
     height: 200px;
     margin: 5px;
     text-align: center;
@@ -37,7 +35,6 @@
 
   #news {
     border-style: solid;
-    width: 1fr;
     height: 200px;
     margin: 5px;
     text-align: center;
@@ -45,7 +42,6 @@
 
   #join {
     border-style: solid;
-    width: 1fr;
     height: 200px;
     margin: 5px;
     text-align: center;
@@ -70,16 +66,12 @@
 
   #spotlight1 {
     border-style: solid;
-    width: 1fr;
-   
     margin: 5px;
     text-align: center;
   }
 
   #spotlight2 {
     border-style: solid;
-    width: 1fr;
-   
     margin: 5px;
     text-align: center;
   }
@@ -87,7 +79,6 @@
   #spotlight3 {
     display: block;
     border-style: solid;
-    width: 1fr;
     height: 200px;
     margin: 5px;
     text-align: center;

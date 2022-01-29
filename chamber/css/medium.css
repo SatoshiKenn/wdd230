@@ -21,11 +21,39 @@
     font-size: 0.8rem;
     padding: 10px;
   }
+  
+  #hero {
+    border-style: solid;
+    width: 1fr;
+    height: 200px;
+    margin: 5px;
+    text-align: center;
+  }
 
-  #hero,
-  #event,
-  #weather,
-  #news,
+  #event {
+    border-style: solid;
+    width: 1fr;
+    height: 200px;
+    margin: 5px;
+    text-align: center;
+  }
+
+  #weather {
+    border-style: solid;
+    width: 1fr;
+    height: 200px;
+    margin: 5px;
+    text-align: center;
+  }
+
+  #news {
+    border-style: solid;
+    width: 1fr;
+    height: 200px;
+    margin: 5px;
+    text-align: center;
+  }
+
   #join {
     border-style: solid;
     width: 1fr;
@@ -87,5 +115,24 @@
     grid-row: 5;
     width: 2fr;
     grid-column: 4/6;
+  }
+
+  footer  {
+    display: flex;
+    flex-flow: column;
+  }
+
+  #fpart1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .headings {
+    padding: 10px;
+  }
+
+  #fpart2 {
+    display: flex;
   }
 }

@@ -20,16 +20,6 @@ body {
   font-family: Ubuntu, "Sansita", sans-serif;
 }
 
-footer {
-  background-color: #f6f1ea;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
 header,
 main,
 footer {
@@ -62,6 +52,8 @@ p {
 
 .social {
   margin-right: 1.5rem;
+  display: flex;
+  margin: auto;
 }
 
 .social img {
@@ -72,7 +64,7 @@ p {
 .logo {
   display: flex;
   align-items: center;
-  margin-left: 1rem;
+  justify-content: center;
 }
 
 .logo img {
@@ -89,6 +81,13 @@ p {
   display: flex;
   flex-direction: column;
   margin-left: 0.5rem;
+}
+
+#hpart2 {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 10px;
 }
 
 /* nav css*/
@@ -161,9 +160,30 @@ main {
   padding: 10px;
 }
 
-#hero,
-#event,
-#weather,
+#hero {
+  border-style: solid;
+  width: 1fr;
+  height: 200px;
+  margin: 5px;
+  text-align: center;
+}
+
+#event {
+  border-style: solid;
+  width: 1fr;
+  height: 200px;
+  margin: 5px;
+  text-align: center;
+}
+
+#weather {
+  border-style: solid;
+  width: 1fr;
+  height: 200px;
+  margin: 5px;
+  text-align: center;
+}
+
 #news {
   border-style: solid;
   width: 1fr;
@@ -230,12 +250,29 @@ main {
 */
 
 /*footer css*/
+
 footer {
   color: #373737;
   font-size: 0.6rem;
   font-family: "Roboto Condensed", sans-serif;
+  background-color: #f6f1ea;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.email {
+#fpart2 {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.email,
+.phone {
   font-size: 1rem;
+  padding: 10px;
 }

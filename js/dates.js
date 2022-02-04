@@ -6,4 +6,4 @@ lastmodified.innerHTML = `Last Updated: ${document.lastModified}`;
 const p_year = document.querySelector("#copyright");
 const today = new Date();
 const year = today.getFullYear();
-p_year.innerHTML = `&copy; ${year} Kennette Guevara`;
+p_year.innerHTML = `&copy; ${year}  :|: Kennette Guevara :|: SV-CL`;

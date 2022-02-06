@@ -91,6 +91,10 @@ p {
   text-align: center;
 }
 
+#joinchamber {
+  font-size: .8rem;
+}
+
 /* nav css*/
 nav {
   margin: 0 auto;
@@ -210,6 +214,7 @@ main {
   height: 200px;
   margin: 5px;
   text-align: center;
+  overflow: hidden;
 }
 
 #news {

@@ -13,9 +13,16 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
 /*Join chamber code*/
-const day = now.getDay()
+const day = now.getDay();
 
-switch (day) {
+if (day == 1 || day == 2) {
+  document.querySelector("#joinchamber").style.display = "block";
+  console.log("Wednesday")
+} else {
+  document.querySelector("#joinchamber").style.display = "none";
+}
+
+/*switch (day) {
   case 0:
     document.querySelector("#joinchamber").style.display = "none";
     console.log("Sunday")
@@ -43,4 +50,4 @@ switch (day) {
   case 6:
     document.querySelector("#joinchamber").style.display = "none";
     console.log("Saturday");
-}
+}*/

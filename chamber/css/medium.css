@@ -25,7 +25,7 @@
     font-size: 0.8rem;
     padding: 10px;
   }
-  
+
   #hero {
     border-style: solid;
     height: 200px;
@@ -120,12 +120,12 @@
     width: 300px;
   }
 
-  footer  {
+  footer {
     display: flex;
     flex-flow: column;
   }
 
-  #fpart1{
+  #fpart1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -137,5 +137,11 @@
 
   #fpart2 {
     display: flex;
+  }
+
+  .email,
+  .phone {
+    font-size: 1rem;
+    padding: 10px;
   }
 }

@@ -57,24 +57,37 @@
           </nav>
         </div>
         <div id="joinchamber">
-          <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+          <p>
+            🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00
+            p.m.
+          </p>
         </div>
         <p><span id="date"></span></p>
       </div>
-      
     </header>
     <main>
       <div id="hero">
         <h2 id="heroheading">Welcome to Estacion Central Food Advisors</h2>
-        <img id="heroimg" src="images/hero.webp" alt="hero-img" />
+        <picture>
+          <source srcset="images/wdd230-medium.webp" media="(min-width: 40rem) and (max-width: 63.9rem)">
+          <source srcset="images/wdd230-large.webp" media="(min-width: 64rem)">
+          <img id="heroimg" src="images/wdd230-small.webp" alt="hero-img" />
+        </picture>
         <section class="overlay">
           <button id="joinbtn">Join the chamber</button>
         </section>
+        <section id="soverlay">
+          <p>SMALL</p>
+        </section>
+        <section id="moverlay">
+          <p>MEDIUM</p>
+        </section>
+        <section id="loverlay">
+          <p>LARGE</p>
+        </section>
       </div>
       <div id="event"><p>Event</p></div>
-      <div id="weather">
-        Weather
-      </div>
+      <div id="weather">Weather</div>
       <div id="news"><p>News Release</p></div>
       <div id="spotlight">
         <div id="spotlight1"><p>Spotlight1</p></div>

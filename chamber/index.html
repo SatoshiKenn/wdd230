@@ -23,6 +23,7 @@
     <script defer src="js/dates.js"></script>
     <script defer src="js/navigation.js"></script>
     <script defer src="js/footer.js"></script>
+    <script defer src="js/windchill.js"></script>
   </head>
   <body>
     <header>
@@ -87,7 +88,14 @@
         </section>
       </div>
       <div id="event"><p>Event</p></div>
-      <div id="weather">Weather</div>
+      <div id="weather">
+        <section>
+          <h2 id="weatherheading">Weather</h2>
+          <p>Currently: <span id="t">30</span>&#176;C</p>
+          <p>Wind Speed: <span id="s">10</span> kmh</p>
+          <p>WindChill: <span id="w"></span></p>
+        </section>
+      </div>
       <div id="news"><p>News Release</p></div>
       <div id="spotlight">
         <div id="spotlight1"><p>Spotlight1</p></div>

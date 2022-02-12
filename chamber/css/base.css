@@ -189,6 +189,11 @@ main {
   background-color: transparent;
 }
 
+#weatherheading {
+  background-color: transparent;
+
+}
+
 #soverlay {
   position: absolute;
   top:50px;

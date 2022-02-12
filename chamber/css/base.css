@@ -227,6 +227,7 @@ main {
   margin: 5px;
   text-align: center;
   overflow: hidden;
+  font-size: 0.6rem;
 }
 
 #weatherimg {

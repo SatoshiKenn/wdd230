@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Lazy CSS*/
+img[data-src] {
+  filter: blur(0.2em);
+}
+
+img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+header,
+main,
+footer {
+  max-width: 767px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h1 {
+  font-size: 1.1rem;
+  color: #536878;
+  text-align: center;
+}
+
+footer {
+  color: #373737;
+  font-size: 1rem;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #f6f1ea;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#fpart2 {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}

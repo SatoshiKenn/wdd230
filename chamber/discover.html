@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Food Chamber of commerce for Estacion Central, Santiago, Chile."
+    />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <title>Estacion Central Chamber</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Roboto:wght@300&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <script defer src="js/dates.js"></script>
+    <script defer src="js/navigation.js"></script>
+    <script defer src="js/footer.js"></script>
+    <script defer src="js/windchill.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <picture>
+          <img src="images/logo.webp" alt="food Advisors Logo" />
+        </picture>
+      </div>
+      <div class="headings">
+        <h1>Food Advisors Estacion Central</h1>
+      </div>
+      <div class="social">
+        <a class="socialimg" href="https://www.facebook.com/" target="_blank"
+          ><img src="images/facebook.webp" alt="facebook icon"
+        /></a>
+        <a class="socialimg" href="https://twitter.com/" target="_blank"
+          ><img src="images/twitter.webp" alt="twitter icon"
+        /></a>
+      </div>
+      <div id="hpart2">
+        <div id="nav">
+          <nav>
+            <button id="hamburgerbtn">
+              <span>&#9776;</span><span>X</span>
+            </button>
+            <ul id="primarynav">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Discovery</a></li>
+              <li><a href="#">Join</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div id="joinchamber">
+          <p>
+            🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00
+            p.m.
+          </p>
+        </div>
+        <p><span id="date"></span></p>
+      </div>
+    </header>
+    <main>
+      <div id="hero">
+        <h2 id="heroheading">Welcome to Estacion Central Food Advisors</h2>
+        <picture>
+          <source srcset="images/wdd230-medium.webp" media="(min-width: 40rem) and (max-width: 63.9rem)">
+          <source srcset="images/wdd230-large.webp" media="(min-width: 64rem)">
+          <img id="heroimg" src="images/wdd230-small.webp" alt="hero-img" />
+        </picture>
+        <section class="overlay">
+          <button id="joinbtn">Join the chamber</button>
+        </section>
+        <section id="soverlay">
+          <p>SMALL</p>
+        </section>
+        <section id="moverlay">
+          <p>MEDIUM</p>
+        </section>
+        <section id="loverlay">
+          <p>LARGE</p>
+        </section>
+      </div>
+      <div id="event"><p>Event</p></div>
+      <div id="weather">
+        <section>
+          <h2 id="weatherheading">Weather</h2>
+          <img id="weatherimg" src="images/weather.webp" alt="weather icon">
+          <p>Party Cloud</p>
+          <p>Currently: <span id="t">30</span>&#176;C</p>
+          <p>Wind Speed: <span id="s">10</span> kmh</p>
+          <p>WindChill: <span id="w"></span></p>
+        </section>
+      </div>
+      <div id="news"><p>News Release</p></div>
+      <div id="spotlight">
+        <div id="spotlight1"><p>Spotlight1</p></div>
+        <div id="spotlight2"><p>Spotlight2</p></div>
+        <div id="spotlight3"><p>Spotlight3</p></div>
+      </div>
+      <div id="join"><p>Join</p></div>
+    </main>
+    <footer>
+      <div id="fpart1">
+        <div class="logo">
+          <picture>
+            <img src="images/logo.webp" alt="food Advisors Logo" />
+          </picture>
+        </div>
+        <div class="headings">
+          <h1>Food Advisors Estacion Central</h1>
+        </div>
+        <a
+          class="email"
+          href="mailto:estacioncentral@foodavisors.com"
+          target="_blank"
+          >estacioncentral@foodavisors.com</a
+        >
+        <a class="phone" href="tel:0000000000">+0 00 0000 0000</a>
+      </div>
+      <div id="fpart2">
+        <div id="last">
+          <p id="lastmodified">test</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

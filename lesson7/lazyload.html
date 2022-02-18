@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Lazy load images practice for wdd230 byui."
+    />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <title>Lazy Load Images</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Roboto:wght@300&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/base.css" />
+    <script defer src="js/dates.js"></script>
+    <script defer src="js/footer.js"></script>
+    <script defer src="js/lazy.js"></script>
+  </head>
+  <body>
+    <body>
+      <h1>Lazy Image Loader</h1>
+      <picture>
+        <img
+          src="images/placeholder.png"
+          data-src="images/image1.webp"
+          alt="image1"
+        />
+      </picture>
+      <picture>
+        <img
+          src="images/placeholder.png"
+          data-src="images/image2.webp"
+          alt="image2"
+        />
+      </picture>
+      <picture>
+        <img
+          src="images/placeholder.png"
+          data-src="images/image3.webp"
+          alt="image3"
+          loading="lazy"
+        />
+      </picture>
+      <picture>
+        <img
+          src="images/placeholder.png"
+          data-src="images/image4.webp"
+          alt="image4"
+          loading="lazy"
+        />
+      </picture>
+      <picture>
+        <img
+          src="images/placeholder.png"
+          data-src="images/image5.webp"
+          alt="image5"
+          loading="lazy"
+        />
+      </picture>
+      <picture>
+        <img
+          src="images/placeholder.png"
+          data-src="images/image5.webp"
+          alt="image6"
+          loading="lazy"
+        />
+      </picture>
+    </body>
+    <footer>
+      <div id="fpart2">
+        <div id="last">
+          <p id="lastmodified">test</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -13,6 +13,7 @@ img {
   filter: blur(0em);
   transition: filter 0.5s;
 }
+/*end of Lazy code*/
 
 body {
   display: flex;

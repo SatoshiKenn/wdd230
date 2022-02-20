@@ -328,3 +328,45 @@ footer {
   font-size: 0.9rem;
   padding: 10px;
 }
+
+/*Discover CSS*/
+
+/*Lazy CSS*/
+img[data-src] {
+  filter: blur(0.2em);
+}
+
+img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+/*end of Lazy code*/
+
+#hdiscover {
+  font-size: 2rem;
+}
+#ec1, #ec2, #ec3, #ec4, #ec5, #ec6, #ec7,#ec8, #ec9 {
+  width: 100%;
+  height: auto;
+  
+}
+
+#discover {
+  display: flex;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.card {
+  width: 320px;
+  box-shadow: 1px 1px 4px 1px #888;
+  border-radius: 5px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.card p {
+  text-align: justify;
+  font-weight: bold;
+  margin: 10px;
+}

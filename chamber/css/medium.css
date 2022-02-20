@@ -177,8 +177,39 @@
     border-radius: 5px;
     background-color: white;
     overflow: hidden;
+    transition: transform 0.2s;
   }
 
+  /*CARD HOVER EFFECT*/
+  .card:hover {
+    transform: scale(1.2);
+    z-index: 555555 !important; /*To give the bigger index always to the element on hover to appears always in front of everything*/
+  }
+
+  /*CSS IMAGES HOVER EFFECT*/
+  #ec1::before, #ec2::before, #ec3::before, #ec4::before, #ec5::before, #ec6::before, #ec7::before, #ec8::before, #ec9::before {
+    background: rgba(0,0,0,.2);
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+  }
+  #ec1:hover, #ec2:hover, #ec3:hover, #ec4:hover, #ec5:hover, #ec6:hover, #ec7:hover, #ec8:hover, #ec9:hover{
+    animation: bloom ease-in-out .75s forwards;
+  }
+
+  @keyframes bloom {
+    0% {
+      filter: grayscale(1);
+    }
+    40% {
+      filter: grayscale(1);
+    }
+    100% {
+      filter: grayscale(0);
+    }
+  }
+  /*END CSS IMAGE HOVER*/
+  
   .card p {
     text-align: justify;
     font-weight: bold;

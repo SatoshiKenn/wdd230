@@ -142,12 +142,16 @@
     border-radius: 5px;
     background-color: white;
     overflow: hidden;
-    font-family: Arial, sans-serif;
+    transition: transform 0.2s;
+  }
+
+  .card:hover {
+    transform: scale(1.2);
+    z-index: 555555 !important;
   }
 
   .card p {
     text-align: justify;
-    font-family: Arial, sans-serif;
     font-weight: bold;
     margin: 10px;
   }

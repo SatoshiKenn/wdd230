@@ -7,7 +7,7 @@ let numVisits = Number(window.localStorage.getItem("visits-ls"));
 if (numVisits !== 0) {
 	visitsDisplay.textContent = numVisits;
 } else {
-	visitsDisplay.textContent = `This is your first visit!`;
+	visitsDisplay.innerHTML = `<br>This is your first visit to Discover Estacion Central!`;
 }
 
 // increment the number of visits.

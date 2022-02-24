@@ -34,7 +34,7 @@ td {
 }
 
 thead th {
-  color: #fff;
+  color: white;
   font-weight: bold;
   background-color: rgb(98, 140, 166);
 }
@@ -45,6 +45,7 @@ tr:nth-of-type(even) {
 
 tr:nth-of-type(odd) {
   background-color: rgb(83,104,120);
+  color: white;
 }
 
 tbody tr:nth-child(5) {
@@ -66,4 +67,5 @@ tfoot {
 
 tfoot td {
   background-color: rgb(246,241,234);
+  color: black;
 }

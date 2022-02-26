@@ -23,7 +23,8 @@
     <script defer src="js/dates.js"></script>
     <script defer src="js/navigation.js"></script>
     <script defer src="js/footer.js"></script>
-    <script defer src="js/windchill.js"></script>
+    <script defer src="js/lazy.js"></script>
+    <script defer src="js/visits.js"></script>
   </head>
   <body>
     <header>
@@ -34,6 +35,7 @@
       </div>
       <div class="headings">
         <h1>Food Advisors Estacion Central</h1>
+        <p id="visit"><span class="label">Number of Visits: </span><span class="visits"></span></p>
       </div>
       <div class="social">
         <a class="socialimg" href="https://www.facebook.com/" target="_blank"
@@ -50,9 +52,9 @@
               <span>&#9776;</span><span>X</span>
             </button>
             <ul id="primarynav">
-              <li><a href="#">Home</a></li>
-              <li><a href="discover.html">Discover</a></li>
-              <li><a href="join.html">Join</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">Discover</a></li>
+              <li><a href="#">Join</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
           </nav>
@@ -66,45 +68,32 @@
         <p><span id="date"></span></p>
       </div>
     </header>
-    <main>
-      <div id="hero">
-        <h2 id="heroheading">Welcome to Estacion Central Food Advisors</h2>
-        <picture>
-          <source srcset="images/wdd230-medium.webp" media="(min-width: 40rem) and (max-width: 63.9rem)">
-          <source srcset="images/wdd230-large.webp" media="(min-width: 64rem)">
-          <img id="heroimg" src="images/wdd230-small.webp" alt="hero-img" />
-        </picture>
-        <section class="overlay">
-          <button id="joinbtn">Join the chamber</button>
-        </section>
-        <section id="soverlay">
-          <p>SMALL</p>
-        </section>
-        <section id="moverlay">
-          <p>MEDIUM</p>
-        </section>
-        <section id="loverlay">
-          <p>LARGE</p>
-        </section>
-      </div>
-      <div id="event"><p>Event</p></div>
-      <div id="weather">
-        <section>
-          <h2 id="weatherheading">Weather</h2>
-          <img id="weatherimg" src="images/weather.webp" alt="weather icon">
-          <p>Party Cloud</p>
-          <p>Currently: <span id="t">9</span>&#176;C</p>
-          <p>Wind Speed: <span id="s">6</span> km/h</p>
-          <p>WindChill: <span id="w"></span></p>
-        </section>
-      </div>
-      <div id="news"><p>News Release</p></div>
-      <div id="spotlight">
-        <div id="spotlight1"><p>Spotlight1</p></div>
-        <div id="spotlight2"><p>Spotlight2</p></div>
-        <div id="spotlight3"><p>Spotlight3</p></div>
-      </div>
-      <div id="join"><p>Join</p></div>
+    <main id="bform">
+        <h1>Course Proposal Application</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+                <label class="top">Email* <input type="email" name="email" required placeholder="someone@gmail.com"></label>
+                <label class="top">Website <input type="url" name="url" required placeholder="http://"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Business Information</legend>
+                <label class="top">Businness Position <input type="text" name="bposition"></label>
+                <label class="top">Business Name<input type="text" name="bname" required></label>
+                <label class="top">Business Description <input type="number" name="authors"> </label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership Level</legend>
+                <label class="sbs"><input type="radio" name="audience" value="npm"> NP Membership</label>
+                <label class="sbs"><input type="radio" name="audience" value="bm"> Bronze Membership</label>
+                <label class="sbs"><input type="radio" name="audience" value="sm"> Silver Membership</label> 
+                <label class="sbs"><input type="radio" name="audience" value="gm"> Gold Membership</label>
+            </fieldset>
+    <input type="submit" value="Join!" class="submitBtn"> 
+        </form>
     </main>
     <footer>
       <div id="fpart1">

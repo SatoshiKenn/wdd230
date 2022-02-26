@@ -215,4 +215,11 @@
     font-weight: bold;
     margin: 10px;
   }
+
+  /*form*/
+  #bform {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
 }

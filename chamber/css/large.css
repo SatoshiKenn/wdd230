@@ -155,4 +155,11 @@
     font-weight: bold;
     margin: 10px;
   }
+
+  /*form*/
+
+
+  form label.sbs {
+    padding: 0.4rem 0;
+  }
 }

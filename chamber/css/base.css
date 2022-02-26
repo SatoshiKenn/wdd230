@@ -92,7 +92,7 @@ p {
 }
 
 #joinchamber {
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 /* nav css*/
@@ -132,7 +132,6 @@ nav ul.open {
 #hamburgerbtn span:nth-child(1) {
   display: block;
   align-items: center;
-  
 }
 #hamburgerbtn span:nth-child(2) {
   display: none;
@@ -147,7 +146,7 @@ nav ul.open {
 
 nav button {
   color: #536878;
-  background-color: #F6F1EA;
+  background-color: #f6f1ea;
   transition: 0.5s;
   border: none;
   font-size: 2rem;
@@ -180,7 +179,7 @@ main {
 }
 
 #heroimg {
-  width:100%;
+  width: 100%;
   height: 200px;
   object-fit: cover;
 }
@@ -191,27 +190,26 @@ main {
 
 #weatherheading {
   background-color: transparent;
-
 }
 
 #soverlay {
   position: absolute;
-  top:50px;
-	right: 160px;
-	box-shadow: 0 0 30px #333;
+  top: 50px;
+  right: 160px;
+  box-shadow: 0 0 30px #333;
 }
 
 .overlay {
-	position: absolute;
-  top:150px;
-	right: 50px;
-	border: 1px solid #000;
-	box-shadow: 0 0 30px #333;
-	opacity: .9;
+  position: absolute;
+  top: 150px;
+  right: 50px;
+  border: 1px solid #000;
+  box-shadow: 0 0 30px #333;
+  opacity: 0.9;
 }
 
 #joinbtn {
-  background-color: #F6F1EA;
+  background-color: #f6f1ea;
 }
 
 #event {
@@ -346,7 +344,15 @@ img {
   font-size: 2rem;
 }
 
-#ec1, #ec2, #ec3, #ec4, #ec5, #ec6, #ec7,#ec8, #ec9 {
+#ec1,
+#ec2,
+#ec3,
+#ec4,
+#ec5,
+#ec6,
+#ec7,
+#ec8,
+#ec9 {
   width: 100%;
   height: auto;
 }
@@ -379,47 +385,49 @@ img {
 
 form fieldset {
   margin: 2rem 0;
-  border: 5px solid #F6F1EA;
+  border: 5px solid #f6f1ea;
   border-radius: 10px;
-  padding: .5rem 2%;
+  padding: 0.5rem 2%;
 }
 
 form legend {
   color: #445ba9;
   margin: 0 1rem;
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
 }
 
-form label.top, form div {
+form label.top,
+form div {
   display: block;
-  padding-top: qrem;
+  padding-top: 1rem;
   color: #9c2c12;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
-form label.top input, form label.top select {
+form label.top input,
+form label.top select {
   -webkit-appearance: none;
   display: block;
   font-size: 1rem;
   border: solid 1px #999;
   border-radius: 4px;
-  padding: .75rem;
+  padding: 0.75rem;
   color: #555;
   width: 100%;
 }
 
 form label.sbs {
   display: block;
-  padding: .75rem 0;
+  padding: 0.75rem 0;
   color: #555;
 }
 
 form input.submitBtn {
   border: none;
   background-color: #9c2c13;
-  color: white; 
+  color: white;
   border-radius: 1rem;
-  padding: .75rem 1.5rem;
+  padding: 0.75rem 1.5rem;
   margin: 0 0 2rem 2%;
   width: 96%;
   max-width: 20rem;
@@ -431,4 +439,28 @@ form label.top input:required {
 
 form label.top input:required:valid {
   border-left: green solid 6px;
+}
+
+#description {
+  width: 100%;
+  vertical-align: top;
+  height: 5em;
+}
+
+#membershipi {
+  display: flex;
+  flex-flow: row;
+}
+
+.cardm {
+  width: 80px;
+  box-shadow: 1px 1px 4px 1px #888;
+  border-radius: 5px;
+  background-color: white;
+  text-align: center;
+  margin: 5px;
+}
+
+.cardm p, .cardm h2 {
+  font-size: .9rem;
 }

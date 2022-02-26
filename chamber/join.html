@@ -23,8 +23,6 @@
     <script defer src="js/dates.js"></script>
     <script defer src="js/navigation.js"></script>
     <script defer src="js/footer.js"></script>
-    <script defer src="js/lazy.js"></script>
-    <script defer src="js/visits.js"></script>
   </head>
   <body>
     <header>
@@ -35,7 +33,6 @@
       </div>
       <div class="headings">
         <h1>Food Advisors Estacion Central</h1>
-        <p id="visit"><span class="label">Number of Visits: </span><span class="visits"></span></p>
       </div>
       <div class="social">
         <a class="socialimg" href="https://www.facebook.com/" target="_blank"
@@ -69,6 +66,32 @@
       </div>
     </header>
     <main id="bform">
+        <div id="membershipi">
+          <article class="cardm">
+            <h2>Non-Profit Membership</h2>
+              <p>
+                FREE
+              </p>
+          </article>
+          <article class="cardm">
+            <h2>Bronze Membership</h2>
+            <p>
+              $9,990 CLP
+            </p>
+        </article>
+        <article class="cardm">
+          <h2>Silver Membership</h2>
+          <p>
+            $19,990 CLP
+          </p>
+      </article>
+      <article class="cardm">
+        <h2>Gold Membership</h2>
+        <p>
+          $29,990 CLP
+        </p>
+    </article>
+        </div>
         <h1>Course Proposal Application</h1>
         <form method="get" action="thanks.html">
             <fieldset>
@@ -83,14 +106,14 @@
                 <legend>Business Information</legend>
                 <label class="top">Businness Position <input type="text" name="bposition"></label>
                 <label class="top">Business Name<input type="text" name="bname" required></label>
-                <label class="top">Business Description <input type="number" name="authors"> </label>
+                <label class="top">Business Description <textarea id="description" type="text" name="bdescription"> </textarea>
             </fieldset>
             <fieldset>
                 <legend>Membership Level</legend>
-                <label class="sbs"><input type="radio" name="audience" value="npm"> NP Membership</label>
-                <label class="sbs"><input type="radio" name="audience" value="bm"> Bronze Membership</label>
-                <label class="sbs"><input type="radio" name="audience" value="sm"> Silver Membership</label> 
-                <label class="sbs"><input type="radio" name="audience" value="gm"> Gold Membership</label>
+                <label class="sbs"><input type="radio" name="audience" value="npm"> NP Membership - FREE</label>
+                <label class="sbs"><input type="radio" name="audience" value="bm"> Bronze Membership - $9,990 CLP</label>
+                <label class="sbs"><input type="radio" name="audience" value="sm"> Silver Membership - $19,990 CLP</label> 
+                <label class="sbs"><input type="radio" name="audience" value="gm"> Gold Membership - $29,990 CLP</label>
             </fieldset>
     <input type="submit" value="Join!" class="submitBtn"> 
         </form>

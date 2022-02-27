@@ -434,11 +434,11 @@ form input.submitBtn {
 }
 
 form label.top input:required {
-  border-left: red solid 6px;
+  border: red solid 1.5px;
 }
 
 form label.top input:required:valid {
-  border-left: green solid 6px;
+  border: green solid 1.5px;
 }
 
 #description {
@@ -479,6 +479,13 @@ form label.top input:required:valid {
 .membericon {
   height: 50px;
   width: auto;
+}
+
+#requiredf {
+  margin: 0 auto;
+  padding-bottom: 10px;
+  color: red;
+  font-size: .9rem;
 }
 
 /*thanks page*/

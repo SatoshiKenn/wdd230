@@ -22,6 +22,9 @@ if (day == 1 || day == 2) {
   document.querySelector("#joinchamber").style.display = "none";
 }
 
+/*form date*/
+
+
 /*switch (day) {
   case 0:
     document.querySelector("#joinchamber").style.display = "none";

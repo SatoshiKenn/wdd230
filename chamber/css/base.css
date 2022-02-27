@@ -480,3 +480,9 @@ form label.top input:required:valid {
   height: 50px;
   width: auto;
 }
+
+/*thanks page*/
+#thanks {
+  display: block;
+  text-align: center;
+}

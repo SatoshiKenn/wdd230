@@ -50,7 +50,7 @@
             </button>
             <ul id="primarynav">
               <li><a href="index.html">Home</a></li>
-              <li><a href="#">Discover</a></li>
+              <li><a href="discover.html">Discover</a></li>
               <li><a href="#">Join</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
@@ -66,33 +66,38 @@
       </div>
     </header>
     <main id="bform">
+      <h1>Join the Food Advisors Estacion Central Chamber!</h1>
+      <h2>Membership Levels</h2>
         <div id="membershipi">
           <article class="cardm">
             <h2>Non-Profit Membership</h2>
+            <img class="membericon" src="images/join/nonprofit.webp">
               <p>
                 FREE
               </p>
           </article>
           <article class="cardm">
             <h2>Bronze Membership</h2>
+            <img class="membericon" src="images/join/bronze.webp">
             <p>
               $9,990 CLP
             </p>
         </article>
         <article class="cardm">
           <h2>Silver Membership</h2>
+          <img class="membericon" src="images/join/silver.webp">
           <p>
             $19,990 CLP
           </p>
       </article>
       <article class="cardm">
         <h2>Gold Membership</h2>
+        <img class="membericon" src="images/join/gold.webp">
         <p>
           $29,990 CLP
         </p>
     </article>
         </div>
-        <h1>Course Proposal Application</h1>
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Contact Information</legend>
@@ -104,7 +109,7 @@
             </fieldset>
             <fieldset>
                 <legend>Business Information</legend>
-                <label class="top">Businness Position <input type="text" name="bposition"></label>
+                <label class="top">Businness Position <input type="text" name="bposition" pattern="[A-Za-z0-9 -]{7}"></label>
                 <label class="top">Business Name<input type="text" name="bname" required></label>
                 <label class="top">Business Description <textarea id="description" type="text" name="bdescription"> </textarea>
             </fieldset>

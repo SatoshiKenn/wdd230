@@ -458,9 +458,14 @@ form label.top input:required:valid {
   border-radius: 5px;
   background-color: white;
   text-align: center;
-  margin: 5px;
+  margin: 0 auto;
 }
 
 .cardm p, .cardm h2 {
-  font-size: .9rem;
+  font-size: .8rem;
+}
+
+.membericon {
+  height: 50px;
+  width: auto;
 }

@@ -66,39 +66,45 @@
       </div>
     </header>
     <main id="bform">
-      <h1>Join the Food Advisors Estacion Central Chamber!</h1>
-      <h2>Membership Levels</h2>
+      <h1 id="h1form">Join the Food Advisors Estacion Central Chamber!</h1>
+      <h2 id="h2form">Membership Levels</h2>
         <div id="membershipi">
           <article class="cardm">
             <h2>Non-Profit Membership</h2>
-            <img class="membericon" src="images/join/nonprofit.webp">
+            <img class="membericon" src="images/join/nonprofit.webp" alt="Non-Profit icon">
+            <h3>FREE</h3>
               <p>
-                FREE
+                They will have a special place for all the Non-Profit Business and some days they will show in the home page.
               </p>
           </article>
           <article class="cardm">
             <h2>Bronze Membership</h2>
-            <img class="membericon" src="images/join/bronze.webp">
-            <p>
-              $9,990 CLP
-            </p>
+            <img class="membericon" src="images/join/bronze.webp" alt="Bronze icon">
+            <h3>$9,990 CLP</h3>
+              <p>
+                They will show in the spotlights 2 days a week between some hours of their choice and disponibility and they will be able to choose 1 course of the Chamber to learn more about something they would like to improve in their business.
+              </p>
         </article>
         <article class="cardm">
           <h2>Silver Membership</h2>
-          <img class="membericon" src="images/join/silver.webp">
+          <img class="membericon" src="images/join/silver.webp" alt="Silver icon">
+          <h3>$19,990 CLP</h3>
+              <p>
+                They will show in the spotlights 3 days a week between some hours of their choice and disponibility and they will be able to choose 3 course of the Chamber to learn more about something they would like to improve in their business.
+              </p>
           <p>
-            $19,990 CLP
           </p>
       </article>
       <article class="cardm">
         <h2>Gold Membership</h2>
-        <img class="membericon" src="images/join/gold.webp">
-        <p>
-          $29,990 CLP
-        </p>
+        <img class="membericon" src="images/join/gold.webp" alt="Gold icon">
+          <h3>$29,990 CLP</h3>
+            <p>
+              They will show in the spotlights 5 days a week between some hours of their choice and disponibility and they will be able to take all the courses of the Chamber to learn more about how to improve their business.
+            </p>
     </article>
         </div>
-        <form method="get" action="thanks.html">
+        <form id="form" method="get" action="thanks.html">
             <fieldset>
                 <legend>Contact Information</legend>
                 <label class="top">First Name* <input type="text" name="fname" required></label>
@@ -109,7 +115,7 @@
             </fieldset>
             <fieldset>
                 <legend>Business Information</legend>
-                <label class="top">Businness Position <input type="text" name="bposition" pattern="[A-Za-z0-9 -]{7}"></label>
+                <label class="top">Business Position <input type="text" name="bposition" pattern="[a-zA-Z -]+{7,}"></label>
                 <label class="top">Business Name<input type="text" name="bname" required></label>
                 <label class="top">Business Description <textarea id="description" type="text" name="bdescription"> </textarea>
             </fieldset>
@@ -120,7 +126,7 @@
                 <label class="sbs"><input type="radio" name="audience" value="sm"> Silver Membership - $19,990 CLP</label> 
                 <label class="sbs"><input type="radio" name="audience" value="gm"> Gold Membership - $29,990 CLP</label>
             </fieldset>
-    <input type="submit" value="Join!" class="submitBtn"> 
+            <input type="submit" value="Join!" class="submitBtn"> 
         </form>
     </main>
     <footer>

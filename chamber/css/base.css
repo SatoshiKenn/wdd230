@@ -447,13 +447,23 @@ form label.top input:required:valid {
   height: 5em;
 }
 
+#bform {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
 #membershipi {
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
+}
+
+#h1form {
+  font-size: 1.5rem;
 }
 
 .cardm {
-  width: 80px;
+  width: 300px;
   box-shadow: 1px 1px 4px 1px #888;
   border-radius: 5px;
   background-color: white;
@@ -461,8 +471,9 @@ form label.top input:required:valid {
   margin: 0 auto;
 }
 
-.cardm p, .cardm h2 {
-  font-size: .8rem;
+.cardm p,
+.cardm h2 {
+  font-size: 0.8rem;
 }
 
 .membericon {

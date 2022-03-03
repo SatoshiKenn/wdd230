@@ -31,6 +31,7 @@ footer {
 .cards section {
   background-color: rgb(246, 241, 234);
   border-radius: 10px;
+  border: solid 3px;
 }
 
 .cards img {

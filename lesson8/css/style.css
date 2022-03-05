@@ -52,6 +52,12 @@ tbody tr:nth-child(5) {
   font-style: italic;
 }
 
+/*Update to achieve the different color in the sales goal!*/
+tbody tr:nth-child(4) td:nth-child(3) {
+  background-color: rgb(98,140,166);
+  color: white;
+}
+
 tbody td:hover {
   background-color: rgb(98, 140, 166);
   border: none;

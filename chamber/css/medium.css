@@ -180,6 +180,21 @@
     transition: transform 0.2s;
   }
 
+  .cards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .bcard {
+    background-color: rgb(246, 241, 234);
+    border-radius: 10px;
+    border: solid 3px;
+  }
+
   /*CARD HOVER EFFECT*/
   .card:hover {
     transform: scale(1.2);

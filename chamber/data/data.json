@@ -1,0 +1,100 @@
+{
+    "business": [
+      {
+        "name": "Sushi & Nikkei",
+        "address": "Ave. Ecuador 4404",
+        "city": "Santiago",
+        "phone": "912345678",
+        "website": "susshinikkei.cl",
+        "imageurl": ""
+      },
+      {
+        "name": "Paladar",
+        "address": "Ave. Ecuador 4404",
+        "city": "Santiago",
+        "phone": "912345678",
+        "website": "paladar.cl",
+        "imageurl": ""
+      },
+      {
+        "name": "El Mundo de la Cachapa",
+        "address": "Ave. Ecuador 4404",
+        "city": "Santiago",
+        "phone": "912345678",
+        "website": "mundodelacachapa.cl",
+        "imageurl": ""
+      },
+      {
+        "name": "Pepi Reyes",
+        "address": "Ave. Ecuador 4404",
+        "city": "Santiago",
+        "phone": "912345678",
+        "website": "pepireyes.cl",
+        "imageurl": ""
+      },
+      {
+        "name": "Totuma Food",
+        "address": "Ave. Ecuador 4404",
+        "city": "Santiago",
+        "phone": "912345678",
+        "website": "totumafood.cl",
+        "imageurl": ""
+      },
+      {
+        "name": "Con Sazon",
+        "address": "Ave. Ecuador 4404",
+        "city": "Santiago",
+        "phone": "912345678",
+        "website": "consazon.cl",
+        "imageurl": ""
+      },
+      {
+        "name": "Budar's Grill",
+        "address": "Ave. Ecuador 4404",
+        "city": "Santiago",
+        "phone": "912345678",
+        "website": "budarsgrill.cl",
+        "imageurl": ""
+      },
+      {
+        "name": "Terracota",
+        "address": "Ave. Ecuador 4404",
+        "city": "Santiago",
+        "phone": "912345678",
+        "website": "terracota.cl",
+        "imageurl": ""
+      },
+      {
+        "name": "Lord Chicken",
+        "address": "Ave. Ecuador 4404",
+        "city": "Santiago",
+        "phone": "912345678",
+        "website": "lordchicken.cl",
+        "imageurl": ""
+      },
+      {
+        "name": "Punto Estacion",
+        "address": "Ave. Ecuador 4404",
+        "city": "Santiago",
+        "phone": "912345678",
+        "website": "puntoestacion.cl",
+        "imageurl": ""
+      },
+      {
+        "name": "Bambino's Burguer",
+        "address": "Ave. Ecuador 4404",
+        "city": "Santiago",
+        "phone": "912345678",
+        "website": "bambinosburger.cl",
+        "imageurl": ""
+      },
+      {
+        "name": "Bokai Sushi",
+        "address": "Ave. Ecuador 4404",
+        "city": "Santiago",
+        "phone": "912345678",
+        "website": "bokaisushi.cl",
+        "imageurl": ""
+      }
+    ]
+  }

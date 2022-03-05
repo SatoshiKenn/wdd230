@@ -1,7 +1,7 @@
 const requestURL =
-  "https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json";
-//const requestURL = "https://run.mocky.io/v3/d9ca89da-5b87-4443-8c64-c94b4e420fc7";
-const cards = document.querySelector(".cards");
+  "https://satoshikenn.github.io/wdd230/chamber/data/data.json";
+
+const bus = document.querySelector(".bus");
 
 fetch(requestURL)
   .then(function (response) {
@@ -9,60 +9,30 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);
-    const prophets = jsonObject["prophets"];
-    prophets.forEach(displayProphets);
+    const business = jsonObject["business"];
+    business.forEach(displayBusiness);
   });
 
-function displayProphets(prophet) {
-  // Create elements to add to the document
+function displayBusiness(business) {
   let card = document.createElement("section");
+  let logo = document.createElement("img");
   let h2 = document.createElement("h2");
-  let portrait = document.createElement("img");
-  /*
-  let birthdate = document.createElement("p");
-  let birthplace = document.createElement("p");
-  I think is better to use just one element to store the birth date and birth place.
-  */
-  let birth = document.createElement("p");
+  let p = document.createElement("p");
 
-  h2.textContent = `${prophet.name} ${prophet.lastname} `;
-  portrait.setAttribute("src", prophet.imageurl);
-  //if statemente to give the correct ordinal number form
-  if (prophet.order == 1) {
-    portrait.setAttribute(
-      "alt",
-      `Portait of ${prophet.name} ${prophet.lastname} - ${prophet.order}st Latter-day President`
-    );
-  } else if (prophet.order == 2) {
-    portrait.setAttribute(
-      "alt",
-      `Portait of ${prophet.name} ${prophet.lastname} - ${prophet.order}nd Latter-day President`
-    );
-  } else if (prophet.order == 3) {
-    portrait.setAttribute(
-      "alt",
-      `Portait of ${prophet.name} ${prophet.lastname} - ${prophet.order}rd Latter-day President`
-    );
-  } else {
-    portrait.setAttribute(
-      "alt",
-      `Portait of ${prophet.name} ${prophet.lastname} - ${prophet.order}th Latter-day President`
-    );
-  }
-  portrait.setAttribute("loading", "lazy");
-  /*
-  birthdate.innertHTML = `<strong>Birth Date:</strong> ${prophet.birthdate}`
-  birthplace.innertHTML = `<strong>Birth Place:</strong> ${prophet.birthplace}`
-   */
-  birth.innerHTML = `<strong>Birth Date:</strong> ${prophet.birthdate}<br> <strong>Birth Place:</strong> ${prophet.birthplace}`;
+  h2.textContent = `${business.name}`;
+  p.innerHTML = `${business.address}<br/>
+  ${business.phone}<br>
+    ${business.city},<br/>
+    ${business.website}`;
 
+  logo.setAttribute("src", business.imageurl);
+  logo.setAttribute("class", "blogo");
+  logo.setAttribute("alt", `${business.name}'s Logo`);
+  logo.setAttribute("loading", "lazy");
+
+  card.appendChild(logo);
   card.appendChild(h2);
-  /*
-  card.appendChild(birthdate);
-  card.appendChild(birthplace);
-  */
-  card.appendChild(birth);
-  card.appendChild(portrait);
+  card.appendChild(p);
 
-  cards.appendChild(card);
+  bus.appendChild(card);
 }

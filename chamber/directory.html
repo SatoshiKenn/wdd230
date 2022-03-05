@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Businesses Directory Estacion Central, Food Chamber of commerce for Estacion Central, Santiago, Chile."
+      content="Business Directory Estacion Central, Food Chamber of commerce for Estacion Central, Santiago, Chile."
     />
     <link rel="shortcut icon" href="images/favicon.ico" />
     <title>Estacion Central Chamber</title>
@@ -24,6 +24,7 @@
     <script defer src="js/navigation.js"></script>
     <script defer src="js/footer.js"></script>
     <script defer src="js/lazy.js"></script>
+    <script defer src="js/businesses.js"></script>
   </head>
   <body>
     <header>
@@ -67,33 +68,33 @@
         <p><span id="date"></span></p>
       </div>
     </header>
-    <main>
-    <div class=".bus"></div>
+    <main class="bgrid">
+      <h1 id="businessHeadline">Food Advisors Estacion Central Directory</h2>
+      <div class="cards"></div>
     </main>
     <footer>
-      <div id="fpart1">
-        <div class="logo">
-          <picture>
-            <img src="images/logo.webp" alt="food Advisors Logo" />
-          </picture>
+        <div id="fpart1">
+          <div class="logo">
+            <picture>
+              <img src="images/logo.webp" alt="food Advisors Logo" />
+            </picture>
+          </div>
+          <div class="headings">
+            <h1>Food Advisors Estacion Central</h1>
+          </div>
+          <a
+            class="email"
+            href="mailto:estacioncentral@foodavisors.com"
+            target="_blank"
+            >estacioncentral@foodavisors.com</a
+          >
+          <a class="phone" href="tel:0000000000">+0 00 0000 0000</a>
         </div>
-        <div class="headings">
-          <h1>Food Advisors Estacion Central</h1>
+        <div id="fpart2">
+          <div id="last">
+            <p id="lastmodified">test</p>
+          </div>
         </div>
-        <a
-          class="email"
-          href="mailto:estacioncentral@foodavisors.com"
-          target="_blank"
-          >estacioncentral@foodavisors.com</a
-        >
-        <a class="phone" href="tel:0000000000">+0 00 0000 0000</a>
-      </div>
-      <div id="fpart2">
-        <div id="last">
-          <p id="lastmodified">test</p>
-        </div>
-      </div>
-    </footer>
-    <script defer src="js/businesses.js"></script>
+      </footer>
   </body>
-</html>
+  </html>

@@ -377,6 +377,28 @@ img {
   margin: 10px;
 }
 
+.cards {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bcard {
+  background-color: rgb(246, 241, 234);
+  border-radius: 10px;
+  border: solid 3px;
+}
+
+.bcard p {
+  text-align: center;
+  margin: 10px;
+}
+
+.bgrid {display: block;}
+
 #visit {
   font-size: 1.1rem;
 }

@@ -145,6 +145,15 @@
     transition: transform 0.2s;
   }
 
+  .cards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
   .card:hover {
     transform: scale(1.3);
     z-index: 555555 !important;

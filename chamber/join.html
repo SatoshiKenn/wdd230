@@ -112,14 +112,14 @@
                 <label class="top">Last Name* <input type="text" name="lname" required></label>
                 <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
                 <label class="top">Email* <input type="email" name="email" required placeholder="someone@gmail.com"></label>
-                <label class="top">Website <input type="url" name="url" required placeholder="http://"></label>
+                <label class="top">Website <input type="url" name="url" placeholder="http://"></label>
                 <input id="formdate" type="hidden" name="date" required>
             </fieldset>
             <fieldset>
                 <legend>Business Information</legend>
-                <label class="top">Business Position <input type="text" name="bposition" pattern="[a-zA-Z -]+{7,}"></label>
+                <label class="top">Business Position<input type="text" name="title" pattern="([a-zA-Z -]+)" minlength="7"></label>
                 <label class="top">Business Name<input type="text" name="bname" required></label>
-                <label class="top">Business Description <textarea id="description" type="text" name="bdescription"> </textarea>
+                <label class="top">Business Description <textarea id="description" type="text" name="bdescription"></textarea>
             </fieldset>
             <fieldset>
                 <legend>Membership Level</legend>

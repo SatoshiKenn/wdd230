@@ -1,15 +1,13 @@
 const requestURL =
   "https://satoshikenn.github.io/wdd230/chamber/data/data.json";
 
-const cards = document.querySelector(".cards");
-
 fetch(requestURL)
   .then(function (response) {
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);
-    const business = jsonObject["business"];
+    console.table(jsonObject); 
+    const business = jsonObject["businesses"];
     business.forEach(displayBusiness);
   });
 
@@ -36,5 +34,5 @@ function displayBusiness(business) {
   card.appendChild(h2);
   card.appendChild(p);
 
-  cards.appendChild(card);
+  document.querySelector("div.cards").appendChild(card);
 }

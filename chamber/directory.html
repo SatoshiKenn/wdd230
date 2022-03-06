@@ -25,6 +25,7 @@
     <script defer src="js/footer.js"></script>
     <script defer src="js/lazy.js"></script>
     <script defer src="js/businesses.js"></script>
+    <script defer src="js/view.js"></script>
   </head>
   <body>
     <header>
@@ -70,7 +71,22 @@
     </header>
     <main class="bgrid">
       <h1 id="businessHeadline">Food Advisors Estacion Central Directory</h2>
+        <div class="buttons">
+          <button id="gridBtn"><span>&#9871</span></button>
+          <button id="listBtn"><span>&#9776</span></button>
+        </div>
       <div class="cards"></div>
+      <div class="btable">
+        <table class="businesstable">
+          <thead>
+            <th>Name</th>
+            <th>Adress</th>
+            <th>Phone</th>
+            <th>Website</th>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
     </main>
     <footer>
         <div id="fpart1">

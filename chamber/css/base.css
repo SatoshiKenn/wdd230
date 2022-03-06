@@ -519,3 +519,59 @@ form label.top input:required:valid {
   display: block;
   text-align: center;
 }
+
+
+/*Directory Page*/
+
+.btable {
+  display: none;
+  width: 100%;
+  border: 3px solid black;
+  border-radius: 4px;
+  text-align: center;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 20px;
+  
+}
+
+
+#gridBtn, #listBtn {
+  color: #536878;
+  background-color: #f6f1ea;
+  transition: 0.5s;
+  border: none;
+  font-size: 2rem;
+  padding: 5px;
+}
+
+#gridBtn:hover, #listBtn:hover {
+  background-color: #f2f3ae;
+  color: #36454f;
+}
+
+
+.businesstable thead {
+  background-color: rgb(246,241,234);
+}
+
+.businesstable td {
+  height: 50px;
+  width: auto;
+}
+
+.businesstable {
+  width: 100%;
+  font-size: .7rem;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.btable tr:nth-of-type(even) {
+  background-color: rgb(246,241,234);
+}

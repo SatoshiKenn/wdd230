@@ -9,6 +9,7 @@ fetch(requestURL)
     console.table(jsonObject); 
     const business = jsonObject["businesses"];
     business.forEach(displayBusiness);
+    business.forEach(displayBTable);
   });
 
 function displayBusiness(business) {
@@ -34,5 +35,46 @@ function displayBusiness(business) {
   card.appendChild(h2);
   card.appendChild(p);
 
-  document.querySelector("div.cards").appendChild(card);
+  document.querySelector("div.cards").appendChild(card);  
 }
+
+function displayBTable(business) {
+  let table = document.querySelector(".businesstable");
+  let row = document.createElement("tr");
+  let tdName = document.createElement("td");
+  let tdAddress = document.createElement("td");
+  let tdPhone = document.createElement("td");
+  let tdWebsite = document.createElement("td");
+  let thName = document.createElement("th");
+  thName.textContent = "Name";
+
+
+  tdName.innerHTML = `${business.name}`;
+  tdAddress.innerHTML = `${business.address}`;
+  tdPhone.innerHTML = `${business.phone}`;
+  tdWebsite.innerHTML = `${business.website}`
+  row.appendChild(tdName);
+  row.appendChild(tdAddress);
+  row.appendChild(tdPhone);
+  row.appendChild(tdWebsite);
+  tbody.appendChild(row);
+
+  table.appendChild(tbody);
+
+  document.querySelector(".btable").appendChild(table);
+}
+
+/*function displayBTable(business) {
+  let table = document.querySelector(".businesstable");
+  let row = document.createElement("tr");
+  let information = document.createElement("td");
+
+  information.innerHTML = `${business.name}<br> Address: ${business.address}<br>${business.city}<br>Phone: ${business.phone}<br>${business.website}`;
+  row.appendChild(information);
+  tbody.appendChild(row);
+
+  table.appendChild(tbody);
+
+  document.querySelector(".btable").appendChild(table);
+}
+}*/

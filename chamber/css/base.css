@@ -397,6 +397,11 @@ img {
   margin: 10px;
 }
 
+.blogo {
+  width: 150px;
+  height: auto;
+}
+
 .bgrid {display: block;}
 
 #visit {

@@ -54,7 +54,7 @@
         "city": "Santiago",
         "phone": "912345678",
         "website": "budarsgrill.cl",
-        "imageurl": ""
+        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/budarsgrill.webp"
       },
       {
         "name": "Terracota",
@@ -62,7 +62,7 @@
         "city": "Santiago",
         "phone": "912345678",
         "website": "terracota.cl",
-        "imageurl": ""
+        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/terracota.webp"
       },
       {
         "name": "Lord Chicken",
@@ -70,7 +70,7 @@
         "city": "Santiago",
         "phone": "912345678",
         "website": "lordchicken.cl",
-        "imageurl": ""
+        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/lordchicken.webp"
       },
       {
         "name": "Punto Estacion",
@@ -78,7 +78,7 @@
         "city": "Santiago",
         "phone": "912345678",
         "website": "puntoestacion.cl",
-        "imageurl": ""
+        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/puntoestacion.webp"
       },
       {
         "name": "Bambino's Burguer",
@@ -86,7 +86,7 @@
         "city": "Santiago",
         "phone": "912345678",
         "website": "bambinosburger.cl",
-        "imageurl": ""
+        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/bambinosburguer.webp"
       },
       {
         "name": "Bokai Sushi",
@@ -94,7 +94,7 @@
         "city": "Santiago",
         "phone": "912345678",
         "website": "bokaisushi.cl",
-        "imageurl": ""
+        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/bokaisushi.webp"
       }
     ]
   }

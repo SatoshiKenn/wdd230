@@ -14,7 +14,7 @@
         "city": "Santiago",
         "phone": "912345678",
         "website": "paladar.cl",
-        "imageurl": ""
+        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/paladar.webp"
       },
       {
         "name": "El Mundo de la Cachapa",
@@ -22,7 +22,7 @@
         "city": "Santiago",
         "phone": "912345678",
         "website": "mundodelacachapa.cl",
-        "imageurl": ""
+        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/mundocachapa.webp"
       },
       {
         "name": "Pepi Reyes",
@@ -30,7 +30,7 @@
         "city": "Santiago",
         "phone": "912345678",
         "website": "pepireyes.cl",
-        "imageurl": ""
+        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/pepireyes.webp"
       },
       {
         "name": "Totuma Food",
@@ -38,7 +38,7 @@
         "city": "Santiago",
         "phone": "912345678",
         "website": "totumafood.cl",
-        "imageurl": ""
+        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/totumafood.webp"
       },
       {
         "name": "Con Sazon",
@@ -46,7 +46,7 @@
         "city": "Santiago",
         "phone": "912345678",
         "website": "consazon.cl",
-        "imageurl": ""
+        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/consazon.webp"
       },
       {
         "name": "Budar's Grill",

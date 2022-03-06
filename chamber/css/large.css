@@ -158,11 +158,13 @@
     transform: scale(1.3);
     z-index: 555555 !important;
   }
+  .bcard p{
+    font-size: 15px;
+  }
 
   .card p {
     text-align: justify;
     font-weight: bold;
-    margin: 10px;
   }
 
   /*form*/

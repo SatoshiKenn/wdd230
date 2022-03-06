@@ -6,7 +6,7 @@
         "city": "Santiago",
         "phone": "912345678",
         "website": "susshinikkei.cl",
-        "imageurl": "/images/directory/sushinikkei.webp"
+        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/sushinikkei.webp"
       },
       {
         "name": "Paladar",

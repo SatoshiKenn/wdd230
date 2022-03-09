@@ -594,7 +594,26 @@ figcaption {
   font-size: .8rem;
 }
 
-#weather {
+#weather,
+#event,
+#join {
+  background: rgb(246, 241, 234);
+  background: linear-gradient(313deg, rgba(246, 241, 234, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(132, 163, 187, 1) 100%);
+}
+
+#spotlight1,
+#spotlight2,
+#spotlight3 {
+  background: rgb(246, 241, 234);
+  background: linear-gradient(45deg, rgba(246, 241, 234, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(132, 163, 187, 1) 100%);
+}
+
+#news {
+  background: rgb(246, 241, 234);
+  background: linear-gradient(180deg, rgba(246, 241, 234, 1) 0%, rgba(255, 255, 255, 1) 85%, rgba(132, 163, 187, 1) 100%);
+}
+
+main section {
   background: rgb(246, 241, 234);
   background: linear-gradient(313deg, rgba(246, 241, 234, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(132, 163, 187, 1) 100%);
 }

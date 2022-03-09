@@ -580,3 +580,9 @@ form label.top input:required:valid {
   display: block;
   width: 100%;
 }*/
+
+/*Weather API*/
+
+figcaption {
+  font-size: .8rem;
+}

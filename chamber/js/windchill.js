@@ -1,3 +1,19 @@
+const apiURL =
+  "https://api.openweathermap.org/data/2.5/weather?id=3871336&appid=3755650b1c53c50d6c91c306ae05d912&units=imperial";
+
+fetch(apiURL)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    console.log(jsObject);
+    //document.querySelector("#current-temp").textContent = jsObject.main.temp;
+    const iconsrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
+    const desc = jsObject.weather[0].description;
+    //document.querySelector("#icon-src").textContent = iconsrc;
+    document.querySelector("#weathericon").setAttribute("src", iconsrc);
+    document.querySelector("#weathericon").setAttribute("alt", desc);
+    //document.querySelector("figcaption").textContent = desc;
+  });
+
 let t = parseFloat(document.querySelector("#t").textContent);
 let s = parseFloat(document.querySelector("#s").textContent);
 let windchill = "";
@@ -12,8 +28,12 @@ if (t <= 10 && s > 4.8) {
 document.querySelector("#w").innerHTML = windchill;
 
 /*Celsius*/
-function windChill(tempC, speed){
-  windchill = (13.2 + 0.6215 * tempC - 11.37 * Math.pow(speed, 0.16) + 0.3965 * tempC * Math.pow(speed, 0.16));
+function windChill(tempC, speed) {
+  windchill =
+    13.2 +
+    0.6215 * tempC -
+    11.37 * Math.pow(speed, 0.16) +
+    0.3965 * tempC * Math.pow(speed, 0.16);
   return windchill.toFixed(2);
 }
 

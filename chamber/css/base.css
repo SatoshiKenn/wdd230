@@ -39,6 +39,7 @@ h1 {
   color: #536878;
   text-align: center;
 }
+
 h2 {
   color: #536878;
   text-align: center;
@@ -100,11 +101,13 @@ nav {
   margin: 0 auto;
   max-width: 767px;
 }
+
 nav ul {
   list-style-type: none;
   overflow: hidden;
   border-radius: 10px;
 }
+
 nav ul li a {
   display: block;
   color: #fff;
@@ -119,6 +122,7 @@ nav ul li a {
 nav ul {
   display: none;
 }
+
 nav ul.open {
   display: block;
 }
@@ -133,6 +137,7 @@ nav ul.open {
   display: block;
   align-items: center;
 }
+
 #hamburgerbtn span:nth-child(2) {
   display: none;
 }
@@ -140,6 +145,7 @@ nav ul.open {
 #hamburgerbtn.open span:nth-child(1) {
   display: none;
 }
+
 #hamburgerbtn.open span:nth-child(2) {
   display: block;
 }
@@ -338,6 +344,7 @@ img {
   filter: blur(0em);
   transition: filter 0.5s;
 }
+
 /*end of Lazy code*/
 
 #hdiscover {
@@ -585,4 +592,9 @@ form label.top input:required:valid {
 
 figcaption {
   font-size: .8rem;
+}
+
+#weather {
+  background: rgb(246, 241, 234);
+  background: linear-gradient(313deg, rgba(246, 241, 234, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(132, 163, 187, 1) 100%);
 }

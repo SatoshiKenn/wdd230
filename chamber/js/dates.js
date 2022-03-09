@@ -25,7 +25,9 @@ if (day == 1 || day == 2) {
 /*form date*/
 const formdate = new Date()
 let date = formdate.getFullYear()+'-'+(formdate.getMonth()+1)+'-'+formdate.getDate(); /*getMonth starts in 0 that is why we add 1 to show the correct number of the month*/
-document.querySelector('#formdate').value = date;
+let time = formdate.getHours() + ":" + formdate.getMinutes() + ":" + formdate.getSeconds();
+let dateTime = `${date}:${time}`;
+document.querySelector('#formdate').value = dateTime;
 
 /*switch (day) {
   case 0:

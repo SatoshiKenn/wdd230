@@ -401,7 +401,9 @@ img {
   height: auto;
 }
 
-.bgrid {display: block;}
+.bgrid {
+  display: block;
+}
 
 #visit {
   font-size: 1.1rem;
@@ -511,7 +513,7 @@ form label.top input:required:valid {
   margin: 0 auto;
   padding-bottom: 10px;
   color: red;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 /*thanks page*/
@@ -519,7 +521,6 @@ form label.top input:required:valid {
   display: block;
   text-align: center;
 }
-
 
 /*Directory Page*/
 
@@ -537,11 +538,10 @@ form label.top input:required:valid {
   margin: 0 auto;
   justify-content: space-between;
   padding: 20px;
-  
 }
 
-
-#gridBtn, #listBtn {
+#gridBtn,
+#listBtn {
   color: #536878;
   background-color: #f6f1ea;
   transition: 0.5s;
@@ -550,14 +550,14 @@ form label.top input:required:valid {
   padding: 5px;
 }
 
-#gridBtn:hover, #listBtn:hover {
+#gridBtn:hover,
+#listBtn:hover {
   background-color: #f2f3ae;
   color: #36454f;
 }
 
-
 .businesstable thead {
-  background-color: rgb(246,241,234);
+  background-color: rgb(246, 241, 234);
 }
 
 .businesstable td {
@@ -567,11 +567,16 @@ form label.top input:required:valid {
 
 .businesstable {
   width: 100%;
-  font-size: .7rem;
+  font-size: 0.7rem;
   margin: 0 auto;
   padding: 10px;
 }
 
 .btable tr:nth-of-type(even) {
-  background-color: rgb(246,241,234);
+  background-color: rgb(246, 241, 234);
 }
+
+/*.businesstable td, .businesstable th {
+  display: block;
+  width: 100%;
+}*/

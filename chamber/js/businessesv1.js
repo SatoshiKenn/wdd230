@@ -6,37 +6,10 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);
+    console.table(jsonObject); 
     const business = jsonObject["businesses"];
     business.forEach(displayBusiness);
-    if (viewport_width < 640) {
-      let table = document.querySelector(".businesstable");
-      let thead = document.createElement("thead");
-      thead.setAttribute("id", "thead");
-      let th1 = document.createElement("th");
-      th1.textContent = "Business";
-      thead.appendChild(th1);
-      table.appendChild(thead);
-      business.forEach(displayBTableS);
-    } else if (viewport_width > 640){
-      let table = document.querySelector(".businesstable");
-      let thead = document.createElement("thead");
-      thead.setAttribute("id", "thead");
-      let th1 = document.createElement("th");
-      th1.textContent = "Name";
-      let th2 = document.createElement("th");
-      th2.textContent = "Address";
-      let th3 = document.createElement("th");
-      th3.textContent = "Phone";
-      let th4 = document.createElement("th");
-      th4.textContent = "Website";
-      thead.appendChild(th1);
-      thead.appendChild(th2);
-      thead.appendChild(th3);
-      thead.appendChild(th4);
-      table.appendChild(thead);
-      business.forEach(displayBTable);
-    }
+    business.forEach(displayBTable);
   });
 
 function displayBusiness(business) {
@@ -62,32 +35,10 @@ function displayBusiness(business) {
   card.appendChild(h2);
   card.appendChild(p);
 
-  document.querySelector("div.cards").appendChild(card);
-}
-
-let viewport_width = document.documentElement.clientWidth;
-console.log(viewport_width);
-
-function displayBTableS(business) {
-  let table = document.querySelector(".businesstable");
-  let row = document.createElement("tr");
-  let information = document.createElement("td");
-
-  information.innerHTML = `${business.name}<br> Address: ${business.address}<br>${business.city}<br>Phone: ${business.phone}<br>${business.website}`;
-  row.appendChild(information);
-  tbody.appendChild(row);
-  table.appendChild(tbody);
-  document.querySelector(".btable").appendChild(table);
+  document.querySelector("div.cards").appendChild(card);  
 }
 
 function displayBTable(business) {
-  /*
-  <thead id="thead">
-  <th>Name</th>
-  <th>Address</th>
-  <th>Phone</th>
-  <th>Website</th> 
-  */
   let table = document.querySelector(".businesstable");
   let row = document.createElement("tr");
   let tdName = document.createElement("td");
@@ -96,10 +47,12 @@ function displayBTable(business) {
   let tdWebsite = document.createElement("td");
   let thName = document.createElement("th");
   thName.textContent = "Name";
+
+
   tdName.innerHTML = `${business.name}`;
   tdAddress.innerHTML = `${business.address}`;
   tdPhone.innerHTML = `${business.phone}`;
-  tdWebsite.innerHTML = `${business.website}`;
+  tdWebsite.innerHTML = `${business.website}`
   row.appendChild(tdName);
   row.appendChild(tdAddress);
   row.appendChild(tdPhone);
@@ -124,4 +77,4 @@ function displayBTable(business) {
 
   document.querySelector(".btable").appendChild(table);
 }
-*/
+}*/

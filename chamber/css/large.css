@@ -94,12 +94,21 @@
     border-style: solid;
     margin: 5px;
     text-align: center;
+    display: block;
+  }
+
+  #spotlight1 img, #spotlight2 img, #spotlight3 img {
+    display: none;
   }
 
   #spotlight2 {
     border-style: solid;
     margin: 5px;
     text-align: center;
+  }
+
+  #spotlight2 p {
+    margin-top: -30px;
   }
 
   #spotlight3 {
@@ -155,7 +164,7 @@
   }
 
   .card:hover {
-    transform: scale(1.3);
+    transform: scale(1.1);
     z-index: 555555 !important;
   }
   .bcard p{

@@ -268,19 +268,25 @@ main {
   background-image: none;
 }
 
-#spotlight1 img, #spotlight2 img, #spotlight3 img {
+#spotlight1 img,
+#spotlight2 img,
+#spotlight3 img {
   height: 155px;
   width: auto;
   grid-row: 2;
   padding: 5px;
 }
 
-#spotlight1 h1, #spotlight2 h1, #spotlight3 h1 {
+#spotlight1 h1,
+#spotlight2 h1,
+#spotlight3 h1 {
   grid-column: 1/3;
   font-size: 1rem;
 }
 
-#spotlight1 p, #spotlight2 p, #spotlight3 p {
+#spotlight1 p,
+#spotlight2 p,
+#spotlight3 p {
   grid-column: 2;
   grid-row: 2;
   margin-top: 10px;

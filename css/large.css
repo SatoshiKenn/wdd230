@@ -1,4 +1,4 @@
-@media only screen and (min-width: 50rem) {
+@media only screen and (min-width: 64rem) {
     h1 {
         font-size: 2.5rem;
     }
@@ -7,13 +7,19 @@
         font-size: 1.5rem;
     }
 
-    header {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+    #name {
+        margin-top: 40%;
     }
 
-    #name {
-        margin-top: 20%;
+    #pimg {
+        width: 400px;
+        height: autoS;
+    }
+
+    header {
+        display: grid;
+        justify-content: space-evenlyS;
+
     }
 
     header,

@@ -179,7 +179,7 @@
 
   .demog {
     text-align: center;
-    background: rgba(246,241,234, 0.5);
+    background: rgba(246, 241, 234, 0.5);
     border-radius: 40px;
     color: black;
     font-size: 1.5rem;
@@ -200,11 +200,15 @@
 
   .cards {
     text-align: center;
-    display: grid;
+    display: none;
     grid-template-columns: 1fr 1fr;
     grid-gap: 5px;
     text-align: center;
     margin: 0 auto;
+  }
+
+  .btable {
+    display: block;
   }
 
   .bcard {

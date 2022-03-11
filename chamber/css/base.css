@@ -405,6 +405,14 @@ img {
   row-gap: 20px;
 }
 
+.demog {
+  text-align: center;
+  background: rgba(246, 241, 234, 0.5);
+  border-radius: 40px;
+  color: #32566E;
+  font-size: 1rem;
+}
+
 .card {
   width: 320px;
   box-shadow: 1px 1px 4px 1px #888;

@@ -240,7 +240,7 @@ main {
 
 #weather section {
   display: grid;
-  grid-template-columns: 1fr 1fr; 
+  grid-template-columns: 1fr 1fr;
   justify-items: center;
   margin-top: 20px;
 }
@@ -593,6 +593,9 @@ form label.top input:required:valid {
 }
 
 /*Directory Page*/
+#businessHeadline {
+  margin: 0;
+}
 
 .btable {
   display: none;

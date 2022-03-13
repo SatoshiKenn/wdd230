@@ -224,4 +224,8 @@
   .businesstable {
     font-size: 1rem;
   }
+
+  .btable {
+    display: none;
+  }
 }

@@ -228,4 +228,8 @@
   .btable {
     display: none;
   }
+
+  #businessHeadline {
+    font-size: 2rem;
+  }
 }

@@ -256,7 +256,7 @@ main {
   grid-row: 2;
 }
 
-#weather section figcaption {
+#weather section #figcaption {
   grid-column: 1;
   grid-row: 3;
   font-size: 1.3rem;
@@ -264,6 +264,7 @@ main {
 
 #weather section p:nth-of-type(3) {
   grid-column: 1/3;
+  grid-row: 4;
 }
 
 #news {
@@ -656,8 +657,10 @@ form label.top input:required:valid {
 
 /*Weather API*/
 
-figcaption {
+#figcaption {
   font-size: .8rem;
+  margin: 0;
+  margin-top: -5px;
 }
 
 #weather,

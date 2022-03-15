@@ -11,7 +11,7 @@ fetch(apiURL)
     const speed = jsObject.wind.speed;
     document.querySelector("#weathericon").setAttribute("src", iconsrc);
     document.querySelector("#weathericon").setAttribute("alt", desc);
-    document.querySelector("figcaption").textContent = desc;
+    document.querySelector("#figcaption").textContent = desc;
     document.querySelector("#s").textContent = speed;
     let windchill = "";
     if (jsObject.main.temp.toFixed(1) <= 10 && speed > 4.8) {

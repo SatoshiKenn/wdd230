@@ -151,10 +151,11 @@
     margin-top: 0px;
   }
 
-  #weather section figcaption {
+  #weather section #figcaption {
     grid-column: 1;
     grid-row: 3;
     font-size: .9rem;
+    margin-top: -25px;
   }
 
   footer {

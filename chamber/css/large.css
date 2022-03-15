@@ -150,6 +150,12 @@
     grid-column: 1/3;
   }
 
+  #weather section #figcaption {
+    font-size: .8rem;
+    margin: 0;
+    margin-top: -20px;
+  }
+
   /*Discover CSS*/
 
   #discover {

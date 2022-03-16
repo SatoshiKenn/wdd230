@@ -6,7 +6,8 @@
         "city": "Santiago",
         "phone": "912345678",
         "website": "susshinikkei.cl",
-        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/sushinikkei.webp"
+        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/sushinikkei.webp",
+        "level": "gm"
       },
       {
         "name": "Paladar",
@@ -14,7 +15,8 @@
         "city": "Santiago",
         "phone": "912345678",
         "website": "paladar.cl",
-        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/paladar.webp"
+        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/paladar.webp",
+        "level": "sm"
       },
       {
         "name": "El Mundo de la Cachapa",
@@ -22,7 +24,8 @@
         "city": "Santiago",
         "phone": "912345678",
         "website": "mundodelacachapa.cl",
-        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/mundocachapa.webp"
+        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/mundocachapa.webp",
+        "level": "bm"
       },
       {
         "name": "Pepi Reyes",
@@ -30,7 +33,8 @@
         "city": "Santiago",
         "phone": "912345678",
         "website": "pepireyes.cl",
-        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/pepireyes.webp"
+        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/pepireyes.webp",
+        "level": "gm"
       },
       {
         "name": "Totuma Food",
@@ -38,7 +42,8 @@
         "city": "Santiago",
         "phone": "912345678",
         "website": "totumafood.cl",
-        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/totumafood.webp"
+        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/totumafood.webp",
+        "level": "sm"
       },
       {
         "name": "Con Sazon",
@@ -46,7 +51,8 @@
         "city": "Santiago",
         "phone": "912345678",
         "website": "consazon.cl",
-        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/consazon.webp"
+        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/consazon.webp",
+        "level": "bm"
       },
       {
         "name": "Budar's Grill",
@@ -54,7 +60,8 @@
         "city": "Santiago",
         "phone": "912345678",
         "website": "budarsgrill.cl",
-        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/budarsgrill.webp"
+        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/budarsgrill.webp",
+        "level": "gm"
       },
       {
         "name": "Terracota",
@@ -62,7 +69,8 @@
         "city": "Santiago",
         "phone": "912345678",
         "website": "terracota.cl",
-        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/terracota.webp"
+        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/terracota.webp",
+        "level": "sm"
       },
       {
         "name": "Lord Chicken",
@@ -70,7 +78,8 @@
         "city": "Santiago",
         "phone": "912345678",
         "website": "lordchicken.cl",
-        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/lordchicken.webp"
+        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/lordchicken.webp",
+        "level": "bm"
       },
       {
         "name": "Punto Estacion",
@@ -78,7 +87,8 @@
         "city": "Santiago",
         "phone": "912345678",
         "website": "puntoestacion.cl",
-        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/puntoestacion.webp"
+        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/puntoestacion.webp",
+        "level": "gm"
       },
       {
         "name": "Bambino's Burguer",
@@ -86,7 +96,8 @@
         "city": "Santiago",
         "phone": "912345678",
         "website": "bambinosburger.cl",
-        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/bambinosburguer.webp"
+        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/bambinosburguer.webp",
+        "level": "sm"
       },
       {
         "name": "Bokai Sushi",
@@ -94,7 +105,8 @@
         "city": "Santiago",
         "phone": "912345678",
         "website": "bokaisushi.cl",
-        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/bokaisushi.webp"
+        "imageurl": "https://satoshikenn.github.io/wdd230/chamber/images/directory/bokaisushi.webp",
+        "level": "bm"
       }
     ]
   }

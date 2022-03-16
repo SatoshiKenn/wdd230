@@ -6,8 +6,7 @@
   /*main*/
   main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     font-size: 0.8rem;
     padding: 10px;
   }
@@ -15,7 +14,7 @@
   #hero {
     border-style: solid;
     margin: 5px;
-    height: 410px;
+    height: 405px;
     text-align: center;
     position: relative;
   }
@@ -93,8 +92,9 @@
   }
 
   #news {
-    grid-row: 3;
+    grid-row: 1;
     grid-column: 3/7;
+    margin-top: 416px;
   }
 
   #spotlight {
@@ -109,12 +109,15 @@
     margin: 5px;
     text-align: center;
     display: block;
+    min-width: 175px;
   }
 
   #spotlight1 img,
   #spotlight2 img,
   #spotlight3 img {
-    display: none;
+    display: block;
+    height: 80px;
+    margin: 0 auto;
   }
 
   #spotlight2 {
@@ -135,9 +138,17 @@
     text-align: center;
   }
 
+  #spotlight1 p,
+  #spotlight2 p,
+  #spotlight3 p {
+    font-size: 1rem;
+    margin: 0;
+  }
+
   #join {
-    grid-row: 3;
+    grid-row: 1;
     grid-column: 1/3;
+    margin-top: 416px;
   }
 
   #event {
@@ -146,8 +157,9 @@
   }
 
   #weather {
-    grid-row: 2;
+    grid-row: 1;
     grid-column: 1/3;
+    margin-top: 210px;
   }
 
   #weather section #figcaption {

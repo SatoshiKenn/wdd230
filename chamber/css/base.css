@@ -198,13 +198,6 @@ main {
   background-color: transparent;
 }
 
-#soverlay {
-  position: absolute;
-  top: 50px;
-  right: 160px;
-  box-shadow: 0 0 30px #333;
-}
-
 .overlay {
   position: absolute;
   top: 150px;
@@ -331,7 +324,7 @@ main {
 }
 
 .spotlight #spotlight1:nth-child(1), .spotlight #spotlight1:nth-child(2){
-  font-size: 1.3rem;
+  font-size: .9rem;
   text-align: center;
 }
 

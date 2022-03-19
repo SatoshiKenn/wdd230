@@ -28,33 +28,3 @@ let date = formdate.getFullYear()+'-'+(formdate.getMonth()+1)+'-'+formdate.getDa
 let time = formdate.getHours() + ":" + formdate.getMinutes() + ":" + formdate.getSeconds();
 let dateTime = `${date}:${time}`;
 document.querySelector('#formdate').value = dateTime;
-
-/*switch (day) {
-  case 0:
-    document.querySelector("#joinchamber").style.display = "none";
-    console.log("Sunday")
-    break;
-  case 1:
-    document.querySelector("#joinchamber").style.display = "block";
-    console.log("Monday")
-    break;
-  case 2:
-    document.querySelector("#joinchamber").style.display = "block";
-    console.log("Tuesday")
-    break;
-  case 3:
-    document.querySelector("#joinchamber").style.display = "none";
-    console.log("Wednesday")
-    break;
-  case 4:
-    document.querySelector("#joinchamber").style.display = "none";
-    console.log("Thursday")
-    break;
-  case 5:
-    document.querySelector("#joinchamber").style.display = "none";
-    console.log("Friday")
-    break;
-  case 6:
-    document.querySelector("#joinchamber").style.display = "none";
-    console.log("Saturday");
-}*/

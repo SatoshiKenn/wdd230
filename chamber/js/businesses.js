@@ -110,18 +110,3 @@ function displayBTable(business) {
 
   document.querySelector(".btable").appendChild(table);
 }
-
-/*function displayBTable(business) {
-  let table = document.querySelector(".businesstable");
-  let row = document.createElement("tr");
-  let information = document.createElement("td");
-
-  information.innerHTML = `${business.name}<br> Address: ${business.address}<br>${business.city}<br>Phone: ${business.phone}<br>${business.website}`;
-  row.appendChild(information);
-  tbody.appendChild(row);
-
-  table.appendChild(tbody);
-
-  document.querySelector(".btable").appendChild(table);
-}
-*/

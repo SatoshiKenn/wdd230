@@ -657,3 +657,21 @@ form label.top input:required:valid {
 #weathericon {
   width: 60px;
 }
+
+/*Contact Us*/
+
+#contactus {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 1rem;
+}
+
+#contactus h2 {
+  font-size: 2rem;
+}
+
+#contactus h3 {
+  font-size: 1.3rem;
+  margin-top: 20px;
+}

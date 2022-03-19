@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Business Directory Estacion Central, Food Chamber of commerce for Estacion Central, Santiago, Chile."
+      content="Join to the Food Chamber of commerce for Estacion Central, Santiago, Chile."
     />
     <link rel="shortcut icon" href="images/favicon.ico" />
     <title>Estacion Central Chamber</title>
@@ -23,9 +23,6 @@
     <script defer src="js/dates.js"></script>
     <script defer src="js/navigation.js"></script>
     <script defer src="js/footer.js"></script>
-    <script defer src="js/lazy.js"></script>
-    <script defer src="js/businesses.js"></script>
-    <script defer src="js/view.js"></script>
   </head>
   <body>
     <header>
@@ -54,9 +51,9 @@
             <ul id="primarynav">
               <li><a href="index.html">Home</a></li>
               <li><a href="discover.html">Discover</a></li>
-              <li><a href="join.html">Join</a></li>
-              <li><a href="#">Directory</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><a href="#">Join</a></li>
+              <li><a href="directory.html">Directory</a></li>
+              <li><a href="#">Contact</a></li>
             </ul>
           </nav>
         </div>
@@ -69,48 +66,57 @@
         <p><span id="date"></span></p>
       </div>
     </header>
-    <main class="bgrid">
-      <h2 id="businessHeadline">Food Advisors Estacion Central Directory</h2>
-        <div class="buttons">
-          <button id="gridBtn"><span>&#9871;</span></button>
-          <button id="listBtn"><span>&#9776;</span></button>
+    <main id="bform">
+      <h1 id="h1form">Contact Information</h1>
+        <div id="contactus">
+          <h2 id="h2form">Contact Us</h2>
+            <h3>Address</h3>
+            <p>Estacion Central, Santiago, Chile.</p>
+            <h3>Phone</h3>
+            <a class="phone" href="tel:0000000000">+0 00 0000 0000</a>
+            <h3>Email</h3>
+            <a
+          class="email"
+          href="mailto:estacioncentral@foodavisors.com"
+          target="_blank"
+          >estacioncentral@foodavisors.com</a
+          >
         </div>
-      <div class="cards"></div>
-      <div class="btable">
-        <table class="businesstable">
-          <!--<thead>
-            <th>Name</th>
-            <th>Address</th>
-            <th>Phone</th>
-            <th>Website</th>
-          </thead>-->
-          <tbody id="tbody"></tbody>
-        </table>
-      </div>
+        <form id="form" method="get" action="thanksc.html">
+            <fieldset>
+                <legend>Contact Form</legend>
+                <label class="top">Name* <input type="text" name="fname" required></label>
+                <label class="top">Email* <input type="email" name="email" required placeholder="someone@gmail.com"></label>
+                <label class="top">Question/Concern* <textarea id="description" name="bdescription"></textarea></label>
+                <input id="formdate" type="hidden" name="date">
+            </fieldset>
+            <p id="requiredf">All the fields that has an asterisk(*) are a required field to submit the form.</p>
+            <input type="submit" value="Ask us!" class="submitBtn">
+        </form>
     </main>
     <footer>
-        <div id="fpart1">
-          <div class="logo">
-            <picture>
-              <img src="images/logo.webp" alt="food Advisors Logo" />
-            </picture>
-          </div>
-          <div class="headings">
-            <h1>Food Advisors Estacion Central</h1>
-          </div>
-          <a
-            class="email"
-            href="mailto:estacioncentral@foodavisors.com"
-            target="_blank"
-            >estacioncentral@foodavisors.com</a
-          >
-          <a class="phone" href="tel:0000000000">+0 00 0000 0000</a>
+      <div id="fpart1">
+        <div class="logo">
+          <picture>
+            <img src="images/logo.webp" alt="food Advisors Logo" />
+          </picture>
         </div>
-        <div id="fpart2">
-          <div id="last">
-            <p id="lastmodified">test</p>
-          </div>
+        <div class="headings">
+          <h1>Food Advisors Estacion Central</h1>
         </div>
-      </footer>
+        <a
+          class="email"
+          href="mailto:estacioncentral@foodavisors.com"
+          target="_blank"
+          >estacioncentral@foodavisors.com</a
+        >
+        <a class="phone" href="tel:0000000000">+0 00 0000 0000</a>
+      </div>
+      <div id="fpart2">
+        <div id="last">
+          <p id="lastmodified">test</p>
+        </div>
+      </div>
+    </footer>
   </body>
-  </html>
+</html>

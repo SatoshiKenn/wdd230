@@ -79,13 +79,6 @@ function displayBTableS(business) {
 }
 
 function displayBTable(business) {
-  /*
-  <thead id="thead">
-  <th>Name</th>
-  <th>Address</th>
-  <th>Phone</th>
-  <th>Website</th> 
-  */
   let table = document.querySelector(".businesstable");
   let row = document.createElement("tr");
   let tdName = document.createElement("td");

@@ -6,7 +6,6 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);
     const spotlight = jsonObject["businesses"];
     let valid = true;
     while (valid) {
@@ -57,6 +56,5 @@ function displaySpotlight1(spotlight) {
   div1.appendChild(divcontact);
   divcontact.appendChild(pphone);
   divcontact.appendChild(psite);
-  console.log(spotlight.level);
   document.querySelector("div.spotlight").appendChild(div1);
 }

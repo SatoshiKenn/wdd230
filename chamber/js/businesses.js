@@ -6,7 +6,6 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);
     const business = jsonObject["businesses"];
     business.forEach(displayBusiness);
     if (viewport_width < 640) {
@@ -66,7 +65,6 @@ function displayBusiness(business) {
 }
 
 let viewport_width = document.documentElement.clientWidth;
-console.log(viewport_width);
 
 function displayBTableS(business) {
   let table = document.querySelector(".businesstable");

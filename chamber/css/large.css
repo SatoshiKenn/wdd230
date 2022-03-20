@@ -24,23 +24,10 @@
     object-fit: cover;
   }
 
-  #moverlay {
-    display: none;
-  }
-
-  #loverlay {
-    position: absolute;
-    top: 50px;
-    right: 125px;
-    box-shadow: 0 0 30px #333;
-  }
-
   .overlay {
     position: absolute;
     top: 350px;
     right: 50px;
-    border: 1px solid #000;
-    box-shadow: 0 0 30px #333;
     opacity: 0.9;
   }
 
@@ -129,35 +116,13 @@
     min-width: 175px;
   }
 
-  #spotlight1 img,
-  #spotlight2 img,
-  #spotlight3 img {
+  #spotlight1 img {
     display: block;
     height: 80px;
     margin: 0 auto;
   }
 
-  #spotlight2 {
-    border-style: solid;
-    margin: 5px;
-    text-align: center;
-  }
-
-  #spotlight2 p {
-    margin-top: -30px;
-  }
-
-  #spotlight3 {
-    display: block;
-    border-style: solid;
-    height: 200px;
-    margin: 5px;
-    text-align: center;
-  }
-
-  #spotlight1 p,
-  #spotlight2 p,
-  #spotlight3 p {
+  #spotlight1 p {
     font-size: 1rem;
     margin: 0;
   }

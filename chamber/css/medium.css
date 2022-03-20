@@ -33,17 +33,6 @@
     text-align: center;
   }
 
-  #soverlay {
-    display: none;
-  }
-
-  #moverlay {
-    position: absolute;
-    top: 50px;
-    right: 175px;
-    box-shadow: 0 0 30px #333;
-  }
-
   #event {
     border-style: solid;
     height: 200px;
@@ -366,9 +355,4 @@
     width: 100px;
     height: auto;
   }
-
-  /*.businesstable td, .businesstable th {
-    display: inline;
-    width: auto;
-  }*/
 }

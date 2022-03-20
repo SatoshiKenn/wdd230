@@ -202,13 +202,13 @@ main {
   position: absolute;
   top: 150px;
   right: 50px;
-  border: 1px solid #000;
-  box-shadow: 0 0 30px #333;
   opacity: 0.9;
 }
 
 #joinbtn {
   background-color: #f6f1ea;
+  border-radius: 10px;
+  font-size: 1.2rem;
 }
 
 #event {
@@ -621,11 +621,6 @@ form label.top input:required:valid {
 .btable tr:nth-of-type(even) {
   background-color: rgb(246, 241, 234);
 }
-
-/*.businesstable td, .businesstable th {
-  display: block;
-  width: 100%;
-}*/
 
 /*Weather API*/
 

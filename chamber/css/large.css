@@ -267,4 +267,12 @@
   #businessHeadline {
     font-size: 2rem;
   }
+
+  #contactus {
+    font-size: 1rem;
+  }
+
+  #contactus a {
+    font-size: 1.3rem;
+  }
 }

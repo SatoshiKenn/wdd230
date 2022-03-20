@@ -675,3 +675,7 @@ form label.top input:required:valid {
   font-size: 1.3rem;
   margin-top: 20px;
 }
+
+#contactus a {
+  font-size: 1rem;
+}
